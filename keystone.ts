@@ -15,7 +15,7 @@ const databaseURL =
 
 const sessionConfig = {
   secret: process.env.COOKIE_SECRET,
-  maxAge: 60 * 60, // How long they stay signed in?
+  maxAge: 60 * 60 * 24 * 3, // How long they stay signed in?
 };
 
 const { withAuth } = createAuth({
