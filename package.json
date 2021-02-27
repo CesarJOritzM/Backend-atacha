@@ -5,7 +5,7 @@
   "author": "Cesar Ortiz, Camilo Santana",
   "license": "MIT",
   "scripts": {
-    "dev": "keystone-next -p 3001",
+    "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
   },
   "eslintConfig": {
